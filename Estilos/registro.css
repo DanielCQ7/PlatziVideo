@@ -17,7 +17,7 @@ body{
     margin-top: 10px;
     margin-left: 30px;
 }
-.login{
+.register{
     background: linear-gradient(#21C08B, #AB88FF);
     display: flex;
     align-items: center;
@@ -27,82 +27,42 @@ body{
     min-height: calc(100vh - 200px);
 }
 
-.login__container{
+.register__container{
     background-color: rgba(255,255,255,0.1);
     border: 2px solid white;
     border-radius: 40px;
     color: white;
     padding: 60px 20px 40px;
-    height: 450px;
-    width: 250px;
     min-height: 300px;
+    height: 450px;
+    width: 250;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     margin: 20px 0 ;
-
 }
 
-.login__container--form{
+.register__container--form{
     display: flex;
     flex-direction: column;
 }
 
-.login__container--remember-me{
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;    
-    margin-top: 10px ;
-    width: 250px;
-}
-.login__container--remember-me label{
-    font-size: 14px;
-    height: 30px;
-}
-.login__container--remember-me input{
-    cursor: pointer;
-}
 
-
-
-.login__container--remember-me a{
-    font-size: 14px;
-    color: white;
-    text-decoration: none;
-}
-.login__container--remember-me a:hover{
-    text-decoration: underline;
-}
-
-.login__container--social-media > div{
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.login__container--social-media > div >img{
-    width: 30px;
-    margin-right: 10px;
-}
-.login__container--social-media > div:hover{
-    text-decoration: underline;
-}
-
-.login_container--register{
+.register_container--login{
     font-size: 14px;
     margin-top: 20px;
-    
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-.login_container--register a{
+.register_container--login a{
     font-size: 16px;
     color: white;
     font-weight: bold;
     text-decoration: none;
+    
 }
-.login_container--register a:hover {
+.register_container--login a:hover {
     text-decoration: underline;
 }
 
@@ -118,7 +78,7 @@ body{
     margin-bottom: 20px;
     padding: 0px 10px;
     outline: none;
-    height: 50px;
+    height: 35px;
     width: 200px;
 }
 ::placeholder{
