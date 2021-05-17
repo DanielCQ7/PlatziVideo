@@ -92,6 +92,15 @@ body{
 }
 
 
+.categories__title{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+}
+
+
+
 .carousel{
     width: 100%;
     overflow: scroll;
